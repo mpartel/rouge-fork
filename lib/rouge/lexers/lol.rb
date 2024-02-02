@@ -34,7 +34,7 @@ module Rouge
 
       # Keywords
 
-      KEYWORD                = /\b(?: while | for | if | then | else | break | continue | var | return | fun | struct | new | delete | readonly )\b/x
+      KEYWORD                = /\b(?: while | do | for | if | then | else | break | continue | var | return | fun | struct | new | delete | readonly )\b/x
       DOTDOTDOT              = /\.\.\.+/
 
       # Identifiers
